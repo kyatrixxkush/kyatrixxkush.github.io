@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*--header__*/
+
+.header{
+    background-color: black;
+    
+}
+.header img{
+    width: 200px;
+    border: none;
+    margin-left: 100px;
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+nav ul{
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+.contact{
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*---hero section---*/
+
+
+.home{
+    background-color: #004d42;
+    position: relative;
+    height: 700px;
+}
+.home img{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 700px;
+}
+.home .text-box{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.home h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: white;
+}
+.text-box p{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.home .btncontact{
+    width: 150px;
+    padding: 20px 0px;
+    background-color: #004d42;
+    border: 1px solid white;
+    color: white;
+}
+.home .btncontact:hover,
+.contact:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s transform 0.5s ;
+    transform: translateY(-5px);
+}
+.home .btncontact:hover{
+    font-size: 15px;
+}
+
+/*---services----*/
+
+
+.services h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.services img{
+    width: 100px;
+    background-color: white;
+}
+.services h2 p{
+    display: inline-block;
+}
+.services h2{
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+}
+.services p{
+    margin: 20px 0px 20px 0px;
+    font-size: 15px;
+    width: 400px;
+}
+.services a{
+    color: white;
+    text-decoration: none;
+}
+.services {
+  background-color: black;
+  margin-top: 0px;
+  color: white;
+  padding: 50px;
+}
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 30px;
+}
+.service-card{
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgba(146, 146, 146, 0.205);
+    transition: background-color 0.5s transform 0.5s ;
+}
+.service-card:hover{
+    background-color: #ff004f;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+/*----about-----*/
+
+.about{
+  padding: 60px 120px;
+  background-color: #004d42;
+  display: flex;
+  justify-content: space-between;
+}
+.about h1,
+.info{
+    color: white;
+}
+.about .image{
+    margin-left: 100px;
+}
+.about .text-box{
+    margin-right: 80px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.about h1{
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.about .info{
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+    width: 600px;
+}
+.about h3{
+    margin-bottom: 10px;
+}
+.about .social-links{
+    border: 1px solid rgba(255, 255, 255, 0.863);
+    margin-top: 60px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 10px 10px 10px;
+    border-radius: 20px;
+    color: white;
+}
+.about .social-links-box{
+    width: 300px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+/*--skills---*/
+
+.skills{
+    background-color: black;
+    color: white;
+    padding: 40px 200px;
+}
+.skills h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.skills .text-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 20px;
+    background-color: #004d42;
+    border-radius: 4px;
+}
+.skills .skills-card-1,
+.skills-card-2,
+.skills-card-3,
+.skills-card-4{
+    margin-bottom: 20px;
+}
+.skills h3{
+    margin-bottom: 40px;
+}
+.skills .container{
+    position: relative;
+}
+
+.skills-card-1 .progress{
+    width: 600px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: blue;
+    position: relative;
+}
+.skills-card-1 .overlay{
+    background-color: white;
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.skills-card-2 .progress{
+    width: 600px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: blue;
+    position: relative;
+}
+.skills-card-2 .overlay{
+    background-color: white;
+    width: 200px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+}
+.skills-card-3 .progress{
+    width: 600px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: blue;
+    position: relative;
+}
+.skills-card-3 .overlay{
+    background-color: white;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+}
+.skills-card-4 .progress{
+    width: 600px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: blue;
+    position: relative;
+}
+.skills-card-4 .overlay{
+    background-color: white;
+    width: 320px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+}
+.skills .percentage{
+    position: absolute;
+    right: 200px;
+    top: -30px;
+}
+
+/*----contact----*/
+
+.request h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.request{
+    background-color: #004d41;
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.request .names{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.request .name{
+    flex: 1;
+    height: 40px;
+}
+.message{
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+}
+.message-text{
+    flex: 1;
+    height: 120px;
+}
+.send{
+    padding: 20px;
+    color: white;
+    background-color: #004d41;
+    border: 1px solid white;
+}
+.send:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s transform 0.5s ;
+    transform: translateY(-5px);
+}
